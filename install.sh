@@ -4,10 +4,10 @@ USER_HOME=$(eval echo ~${SUDO_USER})
 export USER_HOME
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+${DIR}/utils/install.sh
 ${DIR}/urxvt/install.sh
 ${DIR}/i3/install.sh
 ${DIR}/vim/install.sh
-${DIR}/utils/install.sh
 
 rm -r ${USER_HOME}/Desktop 
 rm -r ${USER_HOME}/Documents 

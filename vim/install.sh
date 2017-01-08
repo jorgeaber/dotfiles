@@ -9,7 +9,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ${USER_HOME}/.vim/bundle/V
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 mkdir -p ${USER_HOME}/.vim/colors 
-cp ${DIR}/solarized.vim ${USER_HOME}/.vim/colors 
+curl https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim > ${USER_HOME}/.vim/colors
 cp ${DIR}/.vimrc ${USER_HOME}/.vimrc  
 
 cp -r ${USER_HOME}/.vim /root/.vim 
