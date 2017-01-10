@@ -18,4 +18,4 @@ rm -r ${USER_HOME}/Public
 rm -r ${USER_HOME}/Templates 
 rm -r ${USER_HOME}/Videos
 xdg-user-dirs-update --set DESKTOP ${USER_HOME}
-xdg-user-dirs-update --set DOWNLOADS ${USER_HOME}
+xdg-user-dirs-update --set DOWNLOADS ${USER_HOME}/tmp
